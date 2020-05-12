@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Circle</title>
+</head>
+<body>
+    <div id='meter'>
+        <div id='circular-text'>0 1 2 3 4 5 6 7 8 9 10 11 12 14</div>
+        <div id='needle'>
+        </div>
+        <span id='digi-meter'>&times; 10 RPM</span>
+    </div>
+    <div>
+        <br>
+        set get parameter(speed) to see changes.
+        <br>
+            eg. :- ?speed=80
+            <br>
+        else use the below range to set the speed.
+        <br>
+         <input type='range' min="0" max="14" value="0">
+
+    </div>
+    <script src='./script.js'></script>
+</body>
+</html>

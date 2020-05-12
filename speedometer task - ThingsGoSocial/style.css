@@ -56,5 +56,9 @@ body{
     left: calc(51% - 28px);
     transform-origin: center 80%;
     background-size: auto 100%;
+    
     background-position: center;
+}
+input{
+    display: none;
 }
